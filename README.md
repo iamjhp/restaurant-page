@@ -1,9 +1,9 @@
 # Restaurant Page
 
-### [Live Demo]()
-
 #### 📝 Description
-Restaurant page built with ES6 modules, using webpack.
+Restaurant page built with HTML, CSS, Javascript and Webpack
+
+**Live preview:** [here]()
 
 #### 🛠️ Built with
  * HTML
