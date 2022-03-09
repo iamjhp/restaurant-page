@@ -1,0 +1,23 @@
+:root {
+    
+}
+
+* {
+    margin: 0;
+}
+
+header {
+    background-color: #a16207;
+}
+
+.menu {
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+}
