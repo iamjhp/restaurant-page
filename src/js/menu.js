@@ -4,7 +4,7 @@ import BulgogiPath from '../img/bulgogi.jpg';
 import HobakjukPath from '../img/hobakjuk.jpg';
 import JapcheaPath from '../img/japchae.jpg';
 import GimbapPath from '../img/gimbap.jpg';
-import TteokbokkiPath from '../img/Tteokbokki.jpg';
+import TteokbokkiPath from '../img/tteokbokki.jpg';
 import JjajangmyeonPath from '../img/jjajangmyeon.jpg';
 import BossamPath from '../img/bossam.jpg';
 
