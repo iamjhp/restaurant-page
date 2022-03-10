@@ -7,7 +7,7 @@ const headerDiv = () => {
     header_navigation.setAttribute("class", "header-nav")
     const navUl = document.createElement("ul")
 
-    const navArr = ["Home", "Menu", "Contact", "About"]
+    const navArr = ["Home", "Menu", "About"]
     let navArrLen = navArr.length
 
     for (let i = 0; i < navArrLen; i++) {

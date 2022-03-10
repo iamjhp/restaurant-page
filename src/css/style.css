@@ -1,23 +1,72 @@
 :root {
-    
+    --header-color : #ffedd5;
+    --background-color: #fed7aa;
+    --item-background-color: #fecaca;
+    --item-border-color: #fca5a5;
 }
 
 * {
     margin: 0;
 }
 
+html {
+    background-color: var(--background-color);
+}
+
 header {
-    background-color: #a16207;
+    background-color: var(--header-color);
 }
 
 /** home page **/
-img .menu-container {
 
+.home-content {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 300px 3fr;  /*row start colunn start*/
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.nav-item {
+    height: 190px;
+    border-style: solid;
+    border-color: var(--item-border-color);
+    border-radius: 1rem;
+    background-color: var(--item-background-color);
+
+}
+
+.nav-item h2 {
+    margin-bottom: 3rem;
+}
+
+.content-nav {
+    grid-area: 1 / 1 / 2 / 2;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+
+}
+
+.home-container {
+    grid-area: 1 / 2 / 2 / 4;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-container img{
+    display: block;
+    height: 750px;
+    width: auto;
+    text-align: center;
 }
 
 /** menu page **/
 
-img .menu-item {
+.menu-item img {
     height: 150px;
     width: 150px;
 }
@@ -30,7 +79,7 @@ img .menu-item {
 }
 
 .menu-item {
-    background-color: yellow;
+    background-color: var(--item-background-color);
     text-align: center;
     padding: 4rem 0;
 }
@@ -42,4 +91,23 @@ ul {
     justify-content: center;
     align-items: center;
     height: 5rem;
+}
+
+/** about page **/
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content div {
+    width: 300px;
+    height: 300px;
+    background-color: var(--item-background-color);
+    border-style: solid;
+    border-color: var(--item-border-color);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 5rem;
 }
