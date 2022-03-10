@@ -1,6 +1,6 @@
 # Restaurant Page
 
-#### 🧪 [Live preview](https://github.com/iamjhp)
+#### 🧪 [Live preview](https://priceless-shannon-0aff80.netlify.app/)
 
 #### 📝 Description
 Restaurant page built with HTML, CSS, Javascript and Webpack
