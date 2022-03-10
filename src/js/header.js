@@ -4,7 +4,7 @@ const headerDiv = () => {
     const header = document.createElement("header")
 
     const header_navigation = document.createElement("div")
-    header_navigation.setAttribute("class", "menu")
+    header_navigation.setAttribute("class", "header-nav")
     const navUl = document.createElement("ul")
 
     const navArr = ["Home", "Menu", "Contact", "About"]
@@ -12,7 +12,7 @@ const headerDiv = () => {
 
     for (let i = 0; i < navArrLen; i++) {
         const navLi = document.createElement("li")
-        navLi.setAttribute("class", "page-item")
+        navLi.classList.add("page-item")
 
         const navP = document.createElement("a")
         navP.setAttribute("id", navArr[i])
