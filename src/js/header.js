@@ -16,6 +16,7 @@ const headerDiv = () => {
 
         const navP = document.createElement("a")
         navP.setAttribute("id", navArr[i])
+        navP.setAttribute("active", "false")
 
         const navNode = document.createTextNode(navArr[i])
         

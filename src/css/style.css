@@ -3,6 +3,7 @@
     --background-color: #fed7aa;
     --item-background-color: #fecaca;
     --item-border-color: #fca5a5;
+    --nav-hoover-color: #bae6fd;
 }
 
 * {
@@ -15,6 +16,20 @@ html {
 
 header {
     background-color: var(--header-color);
+}
+
+a {
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: var(--nav-hoover-color);
+}
+
+[active="true"] {
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: #d6d3d1;
 }
 
 /** home page **/
